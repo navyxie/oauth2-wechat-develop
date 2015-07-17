@@ -57,7 +57,7 @@ Oauth2.0授权模式总共有四种：
   + 对应步骤（E）
   + 请求成功的响应参数![响应参数](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxibpaLWjHJaOJNXq3Yuxv5Wjyn53Y80PtRibatNrDxbjsF6Oe3YmHb1A21ZxlBhOASFgWyyDsZbZsaw/0?wx_fmt=png)
 4. 第四步：通过access_token拉取用户信息(需scope为 snsapi_userinfo)
-  +获取用户信息的请求参数![响应参数](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxibpaLWjHJaOJNXq3Yuxv5Wj7uaYuwDSUOefia2rNbePPHIicrSyrPnj9w7zjGyuEKZLYeOS84GMmxlw/0?wx_fmt=png)
-  +成功响应的参数，格式为json![响应参数](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxibpaLWjHJaOJNXq3Yuxv5Wj5dRQjL6FE3MfzibUBALCq6CLoVLmLicLDKzuVlhabqY3ibRakyASzDKog/0?wx_fmt=png)
+  +  获取用户信息的请求参数![响应参数](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxibpaLWjHJaOJNXq3Yuxv5Wj7uaYuwDSUOefia2rNbePPHIicrSyrPnj9w7zjGyuEKZLYeOS84GMmxlw/0?wx_fmt=png)
+  +  成功响应的参数，格式为json![响应参数](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMxibpaLWjHJaOJNXq3Yuxv5Wj5dRQjL6FE3MfzibUBALCq6CLoVLmLicLDKzuVlhabqY3ibRakyASzDKog/0?wx_fmt=png)
 
 以微信授权获取用户信息为例子讲解Oauth2.0 授权码模式到此结束，接下来会有一篇文章是讲解如何接入微信开放者平台。
